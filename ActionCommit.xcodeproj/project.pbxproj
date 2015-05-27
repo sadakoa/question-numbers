@@ -21,6 +21,11 @@
 		A29D970319552B8F008E554D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29D96E519552B8F008E554D /* UIKit.framework */; };
 		A29D970B19552B8F008E554D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A29D970919552B8F008E554D /* InfoPlist.strings */; };
 		A29D970D19552B8F008E554D /* ActionCommitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A29D970C19552B8F008E554D /* ActionCommitTests.m */; };
+		A29D971D19555E6C008E554D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = A29D971C19555E6C008E554D /* button.png */; };
+		A29D971F1955658A008E554D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29D971E1955658A008E554D /* AudioToolbox.framework */; };
+		A29D97211955669B008E554D /* button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A29D97201955669B008E554D /* button.mp3 */; };
+		A29D97231955671B008E554D /* seikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A29D97221955671B008E554D /* seikai.mp3 */; };
+		A29D972519556855008E554D /* hukidasi.png in Resources */ = {isa = PBXBuildFile; fileRef = A29D972419556855008E554D /* hukidasi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		A29D970819552B8F008E554D /* ActionCommitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionCommitTests-Info.plist"; sourceTree = "<group>"; };
 		A29D970A19552B8F008E554D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A29D970C19552B8F008E554D /* ActionCommitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionCommitTests.m; sourceTree = "<group>"; };
+		A29D971C19555E6C008E554D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		A29D971E1955658A008E554D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A29D97201955669B008E554D /* button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button.mp3; sourceTree = "<group>"; };
+		A29D97221955671B008E554D /* seikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seikai.mp3; sourceTree = "<group>"; };
+		A29D972419556855008E554D /* hukidasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hukidasi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29D971F1955658A008E554D /* AudioToolbox.framework in Frameworks */,
 				A29D96E419552B8F008E554D /* CoreGraphics.framework in Frameworks */,
 				A29D96E619552B8F008E554D /* UIKit.framework in Frameworks */,
 				A29D96E219552B8F008E554D /* Foundation.framework in Frameworks */,
@@ -101,6 +112,7 @@
 		A29D96E019552B8F008E554D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A29D971E1955658A008E554D /* AudioToolbox.framework */,
 				A29D96E119552B8F008E554D /* Foundation.framework */,
 				A29D96E319552B8F008E554D /* CoreGraphics.framework */,
 				A29D96E519552B8F008E554D /* UIKit.framework */,
@@ -112,6 +124,10 @@
 		A29D96E719552B8F008E554D /* ActionCommit */ = {
 			isa = PBXGroup;
 			children = (
+				A29D972419556855008E554D /* hukidasi.png */,
+				A29D97221955671B008E554D /* seikai.mp3 */,
+				A29D97201955669B008E554D /* button.mp3 */,
+				A29D971C19555E6C008E554D /* button.png */,
 				A29D96F019552B8F008E554D /* AppDelegate.h */,
 				A29D96F119552B8F008E554D /* AppDelegate.m */,
 				A29D96F319552B8F008E554D /* Main.storyboard */,
@@ -228,7 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29D97231955671B008E554D /* seikai.mp3 in Resources */,
 				A29D96FA19552B8F008E554D /* Images.xcassets in Resources */,
+				A29D97211955669B008E554D /* button.mp3 in Resources */,
+				A29D971D19555E6C008E554D /* button.png in Resources */,
+				A29D972519556855008E554D /* hukidasi.png in Resources */,
 				A29D96EC19552B8F008E554D /* InfoPlist.strings in Resources */,
 				A29D96F519552B8F008E554D /* Main.storyboard in Resources */,
 			);

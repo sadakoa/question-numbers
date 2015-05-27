@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface ViewController : UIViewController
+{
+    int actionNumber;
+     SystemSoundID sound_1;
+    SystemSoundID sound_2;
+    IBOutlet UILabel *label;
+}
+
+-(IBAction)boom;
 
 @end
+
+
